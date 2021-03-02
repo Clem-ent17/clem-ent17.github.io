@@ -26,8 +26,9 @@ function About(props) {
     <div className={classes.root}>
       <Grid container spacing={4}>
         <Grid item xs={12} >
-          
+          {/* empty      */}
         </Grid>
+        
         <Grid item xs={12} sm={6}>
           <h1>Hi, I am<br/><span className="gold">Clem</span>ent Valles</h1>
 
@@ -38,9 +39,11 @@ function About(props) {
         <Grid item xs={12} sm={6}>
           <img src={image} alt="About me Clement Valles" class="img-portfolio img-shadow"/>
         </Grid>
+
         <Grid item xs={12} sm={2}>
-          
+          {/* empty      */}
         </Grid>
+
         <Grid item xs={12} sm={4}>
           <h1>A bit more<br/>about who<br/>I am</h1>
         </Grid>
@@ -55,11 +58,8 @@ function About(props) {
         </Grid>
       </Grid>
 
-      <Grid item xs={12} sm={12}>
-        <div className="center-text">
-            <h1>Contact me:</h1>
-            <h3 className="underline"><a href="mailto:valles.clement@gmail.com">valles.clement[at]gmail.com</a></h3>
-        </div>
+      <Grid item xs={12} >
+          {/* empty      */}
       </Grid>
 
       <Grid item xs={12} sm={12}>

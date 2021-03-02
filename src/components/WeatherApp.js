@@ -40,9 +40,9 @@ export default function WeatherApp(props) {
           {/* empty           */}
         </Grid>
         <Grid item xs={12} sm={4}>
-          <h4>_GitHub Repository:</h4>
+          <h4>_GitHub repository:</h4>
           <a href="https://github.com/Clem-ent17/Weather-Dashboard" target="_blank" rel="noreferrer">https://github.com/Clem-ent17/Weather-Dashboard</a>
-          <h4>_Live Link:</h4>
+          <h4>_Live link:</h4>
           <a href="https://clem-ent17.github.io/Weather-Dashboard/" target="_blank" rel="noreferrer">https://clem-ent17.github.io/Weather-Dashboard/</a>
         </Grid>
         <Grid item xs={12} sm={7}>

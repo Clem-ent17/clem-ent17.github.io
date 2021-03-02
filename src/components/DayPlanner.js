@@ -41,9 +41,9 @@ export default function DayPlanner(props) {
           {/* empty           */}
         </Grid>
         <Grid item xs={12} sm={4}>
-          <h4>_GitHub Repository:</h4>
+          <h4>_GitHub repository:</h4>
           <a href="https://github.com/Clem-ent17/Day-Planner" target="_blank" rel="noreferrer">https://github.com/Clem-ent17/Day-Planner</a>
-          <h4>_Live Link:</h4>
+          <h4>_Live link:</h4>
           <a href="https://clem-ent17.github.io/Day-Planner/" target="_blank" rel="noreferrer">https://clem-ent17.github.io/Day-Planner/</a>
         </Grid>
         <Grid item xs={12} sm={7}>

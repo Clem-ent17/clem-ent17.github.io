@@ -25,8 +25,8 @@ function Footer(props) {
       <Grid container spacing={4}>
         <Grid item xs={12}>
             <div className="Footer">
-            <h3><a href="https://www.linkedin.com/in/clement-valles/" class="text-grey"><i class="fab fa-linkedin-in"></i></a>   <a href="https://github.com/Clem-ent17" class="text-grey"><i class="fab fa-github"></i></a></h3>
-            <p className="small-text">© 2020 Copyright - <span className="light">Clem</span>ent Valles Portfolio</p>
+            <h3><a href="https://www.linkedin.com/in/clement-valles/" class="text-grey"><i class="fab fa-linkedin-in"></i></a>   <a href="https://github.com/Clem-ent17" class="text-grey"><i class="fab fa-github"></i></a> <a href="mailto:valles.clement@gmail.com"><i class="fas fa-envelope"></i></a></h3>
+            <p className="small-text">© 2021 Copyright - <span className="light">Clem</span>ent Valles Portfolio</p>
             </div>
         </Grid>
       </Grid>
