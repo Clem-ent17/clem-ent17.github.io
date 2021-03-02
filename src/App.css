@@ -1,10 +1,12 @@
 body {
-  background-color: #1d1e22;
+  background-image: linear-gradient(to bottom right, #1d1e22, #393f4d);
+
 }
 
 h1, h2, h3, h4, h5, h6, button {
   color: #d4d4dc;
-  font-family: 'Abril Fatface', cursive;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
   letter-spacing: 0.05em;
 }
 
@@ -14,7 +16,7 @@ h1 {
 
 p, a {
   color: #d4d4dc;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 p {
@@ -48,7 +50,8 @@ a:hover {
 
 hr {
   border-top: 1px solid #393f4d !important;
-  width: 80%;
+  
+  width: 100%;
 }
 
 .Container {
@@ -58,31 +61,24 @@ hr {
 
 .Navigation {
   overflow: hidden;
-  float: right;
   display: block;
-  background-color: #1d1e22;
-  top: 0;
   width: 100%;
   margin-bottom: 30px;
 }
 
 .Navigation-sub {
   color: #f2f2f2;
-  float: right;
-  text-align: center;
-  margin-right:8%;
-  text-decoration: none;
-  font-size: 1.2em;
-  letter-spacing: 0.1em;
+}
+
+.Nav-left {
+  float: left;
+  padding-top: 0px;
 }
 
 .Sub-item {
-  padding:20px;
-}
-
-.Logo {
-  height: 30px;
-  margin-left:8%;
+  float: right;
+  padding-left:20px;
+  padding-top: 20px;
 }
 
 .underline {
@@ -97,4 +93,38 @@ hr {
 
 .img-portfolio {
   width: 80%;
+  float: right;
+}
+
+.gold {
+  color: #feda6a;
+}
+
+.dark {
+  color: #1d1e22;
+}
+
+.silver{
+  color: #393f4d;
+}
+
+.light{
+  color: #d4d4dc;
+}
+
+.IntroText {
+  font-weight: 300;
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+
+.Footer {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.small-text {
+  font-size: small;
+  font-weight: 500;
 }
