@@ -1,8 +1,7 @@
 // Import the Component component from React
 import React from "react"
 // Import the Thumbnail component
-// import Thumbnail from './Thumbnail'; 
-import PartyHub from './PartyHub';
+import Thumbnail from './Thumbnail'; 
 // Import the style sheet
 import '../App.css';
  
@@ -10,8 +9,7 @@ export default function Work(props) {
   return (
     // Render a Thumbnail component
     <div>
-     <PartyHub />
-      {/* <Thumbnail
+      <Thumbnail
         link="/twitter"
         image="https://miro.medium.com/max/1200/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg"
         title="Twitter Newsfeed"
@@ -30,7 +28,7 @@ export default function Work(props) {
         image="https://media.sproutsocial.com/uploads/2017/02/10x-featured-social-media-image-size.png"
         title="Photoshop Redesign"
         category="Desktop App"
-      /> */}
+      />
     </div>
   )
 }
