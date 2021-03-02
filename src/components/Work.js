@@ -26,7 +26,30 @@ export default function Work(props) {
             {/* empty           */}
           </Grid>
 
+          <Grid item xs={12} >
+            <h1>Discover my work:</h1>
+          </Grid>
+
           <Grid item xs={12} sm={4}>
+            <Thumbnail
+              link="/weatherapp"
+              image="https://images.unsplash.com/photo-1567570744802-06798cc9d079?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+              title="Weather App"
+              category="Development"
+            />
+            <h1 className="silver text-shadow">I always look for the best solution</h1>
+          </Grid>
+          <Grid item xs={12} sm={8}>
+            <Thumbnail
+              link="/eatbeats"
+              image="https://images.unsplash.com/photo-1556910103-1c02745aae4d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+              title="Eats & beats"
+              category="Development"
+          />
+          </Grid>
+          
+
+          <Grid item xs={12} sm={8}>
             <Thumbnail
               link="/partyhub"
               image="https://images.unsplash.com/photo-1523301343968-6a6ebf63c672?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
@@ -36,17 +59,26 @@ export default function Work(props) {
           </Grid>
           <Grid item xs={12} sm={4}>
             <Thumbnail
-              link="/twitter"
-              image="https://miro.medium.com/max/1200/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg"
-              title="Twitter Newsfeed"
+              link="/dayplanner"
+              image="https://images.unsplash.com/photo-1584628804857-8f29a86c3f19?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1060&q=80"
+              title="Day planner"
+              category="Development"
+            />
+            <h1 className="silver text-shadow">I develop intuitive design</h1>
+          </Grid>
+          <Grid item xs={12} sm={4}>
+            <Thumbnail
+              link="/budgettracker"
+              image="https://images.unsplash.com/photo-1580482982890-4caedd6f97ec?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80"
+              title="Budget Tracker"
               category="Development"
           />
           </Grid>
           <Grid item xs={12} sm={4}>
             <Thumbnail
-              link="/photoshop"
-              image="https://media.sproutsocial.com/uploads/2017/02/10x-featured-social-media-image-size.png"
-              title="Photoshop Redesign"
+              link="/burgerapp"
+              image="https://images.unsplash.com/photo-1613851779795-ffd0e7b8b4a5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80"
+              title="Burger App"
               category="Development"
             />
           </Grid>
