@@ -1,7 +1,7 @@
 import React from "react"
 // Import the style sheet
 import '../App.css';
-import image from '../img/Weather-app.gif';
+import image from '../img/05-third-party-apis-homework-demo.gif';
 
 // Import material UI components
 import { makeStyles } from '@material-ui/core/styles';
@@ -18,7 +18,8 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
  
-export default function WeatherApp(props) {
+
+export default function DayPlanner(props) {
   const classes = useStyles();
 
   return (
@@ -29,8 +30,8 @@ export default function WeatherApp(props) {
         </Grid>
 
         <Grid item xs={12} sm={6}>
-          <h1>Weather app</h1>
-          <p className="IntroText">Weather board for traveler to display useful forecast informations.</p>
+          <h1>Day planner</h1>
+          <p className="IntroText">A easy and simple work day scheduler app to organize every tasks.</p>
         </Grid>
         <Grid item xs={12} sm={6}>
           {/* empty           */}
@@ -41,9 +42,9 @@ export default function WeatherApp(props) {
         </Grid>
         <Grid item xs={12} sm={4}>
           <h4>_GitHub Repository:</h4>
-          <a href="https://github.com/Clem-ent17/Weather-Dashboard" target="_blank" rel="noreferrer">https://github.com/Clem-ent17/Weather-Dashboard</a>
+          <a href="https://github.com/Clem-ent17/Day-Planner" target="_blank" rel="noreferrer">https://github.com/Clem-ent17/Day-Planner</a>
           <h4>_Live Link:</h4>
-          <a href="https://clem-ent17.github.io/Weather-Dashboard/" target="_blank" rel="noreferrer">https://clem-ent17.github.io/Weather-Dashboard/</a>
+          <a href="https://clem-ent17.github.io/Day-Planner/" target="_blank" rel="noreferrer">https://clem-ent17.github.io/Day-Planner/</a>
         </Grid>
         <Grid item xs={12} sm={7}>
           <img src={image} alt="About me Clement Valles" class="img-portfolio img-shadow"/>
@@ -60,7 +61,7 @@ export default function WeatherApp(props) {
           <h2>_Concept</h2>
         </Grid>
         <Grid item xs={12} sm={5}>
-          <p className="IntroText">This App display the actual weather for the city the user search, the forecast for the next 5 days, and keep track of this research.</p>
+          <p className="IntroText">This app is a simple calendar application that allows a user to save events for each hour of the day by modifying starter code.</p>
         </Grid>
         <Grid item xs={12} sm={2}>
           {/* empty           */}
@@ -73,9 +74,9 @@ export default function WeatherApp(props) {
           <h2>_User story</h2>
         </Grid>
         <Grid item xs={12} sm={5}>
-          <p className="IntroText">AS A: traveler I need access useful forecast informations<br/>
-            I WANT: to see the weather outlook for multiple cities<br/>
-            SO THAT: can plan a trip accordingly</p>
+          <p className="IntroText">AS A: employees with busy schedules want to add important events to a daily planner<br/>
+            I WANT: to add important events to a daily planner<br/>
+            SO THAT: they will be able to manage their time effectively</p>
         </Grid>
         <Grid item xs={12} sm={2}>
           {/* empty           */}
@@ -94,6 +95,7 @@ export default function WeatherApp(props) {
               <li><i class="fas fa-file-code"></i> Bootstrap</li>
               <li><i class="fab fa-js-square"></i> JavaScript</li>
               <li><i class="fas fa-file-code"></i> jQuery v3.2.1</li>
+              <li><i class="fas fa-file-code"></i> Moment.js</li>
               <li><i class="fab fa-github-square"></i> GitHub</li>
           </ul>
         </Grid>
