@@ -14,7 +14,7 @@ h1 {
   font-size: 3em;
 }
 
-p, a {
+p, a, ul, li {
   color: #d4d4dc;
   font-family: 'Montserrat', sans-serif;
 }
@@ -50,8 +50,8 @@ a:hover {
 
 hr {
   border-top: 1px solid #393f4d !important;
-  
-  width: 100%;
+  margin-top: 40px;
+  width: 60%;
 }
 
 .Container {
@@ -77,8 +77,11 @@ hr {
 
 .Sub-item {
   float: right;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.05em;
   padding-left:20px;
-  padding-top: 20px;
+  padding-top: 22px;
 }
 
 .underline {
@@ -94,6 +97,11 @@ hr {
 .img-portfolio {
   width: 80%;
   float: right;
+}
+
+.img-project {
+  width: 100%;
+  float: left;
 }
 
 .gold {
