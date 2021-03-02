@@ -1,7 +1,8 @@
 import React from "react"
 // Import the style sheet
 import '../App.css';
-import image from '../img/clem-dark.png';
+import image from '../img/clem-silver.png';
+import resume from '../img/Clement-Valles_resume2021.pdf'
 
 // Import material UI components
 import { makeStyles } from '@material-ui/core/styles';
@@ -30,7 +31,7 @@ function About(props) {
         <Grid item xs={12} sm={6}>
           <h1>Hi, I am<br/><span className="gold">Clem</span>ent Valles</h1>
 
-          <p className="IntroText">I’m passionate about two things: solving problems, even sometimes before they exist, and making a difference with my design.</p>
+          <p className="IntroText">I’m passionate about two things: solving problems, even sometimes before they exist, and making a difference with my visual and UI design.</p>
 
           <p className="IntroText">I’m user focused. I always try to create human and intuitive design allowing the users to understand its value in just a few seconds. This is the power of design.</p>
         </Grid>
@@ -52,6 +53,20 @@ function About(props) {
 
           <p>I use my passion for technology and my desire to learn, to always push my limits. I believe that design and apps are incredible and powerful connection between us.</p>
         </Grid>
+      </Grid>
+
+      <Grid item xs={12} sm={12}>
+        <div className="center-text">
+            <h1>Contact me:</h1>
+            <h3 className="underline"><a href="mailto:valles.clement@gmail.com">valles.clement[at]gmail.com</a></h3>
+        </div>
+      </Grid>
+
+      <Grid item xs={12} sm={12}>
+        <div className="center-text">
+            <h1>My resume:</h1>
+            <h3 className="underline"><a href={resume} target="_blank" rel="noreferrer">Even more details about me</a></h3>
+        </div>
       </Grid>
     </div>
   )

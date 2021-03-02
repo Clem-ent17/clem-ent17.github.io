@@ -112,6 +112,15 @@ hr {
   color: #d4d4dc;
 }
 
+.small-text {
+  font-size: small;
+  font-weight: 500;
+}
+
+.center-text {
+  text-align: center;
+}
+
 .IntroText {
   font-weight: 300;
   font-size: 1.2em;
@@ -124,7 +133,3 @@ hr {
   padding-bottom: 20px;
 }
 
-.small-text {
-  font-size: small;
-  font-weight: 500;
-}
