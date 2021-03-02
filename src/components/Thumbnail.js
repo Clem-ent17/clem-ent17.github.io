@@ -23,7 +23,7 @@ const classes = useStyles();
       <div className={classes.root}>
         <Grid container spacing={4}>
             <Grid item sm={12}>
-              <p className="small-text silver text-shadow ">_{props.category}</p>
+              <p className="small-text silver text-shadow">_{props.category}</p>
               <img src={props.image} alt={props.title} width="100%" className="hover-img"/>
               <h2>{props.title}</h2>
               

@@ -26,8 +26,8 @@ function App() {
             <div className="Navigation-sub">
               <Link to='/' className="Nav-left"><h2><span className="silver">C</span><span className="">|</span><span className="silver">V</span></h2></Link>
               {/* Set up the links */}
-              <Link to='/about' className="Sub-item">_ABOUT</Link>
-              <Link to='/' className="Sub-item">_WORK</Link>
+              <Link to='/about' className="Sub-item nav-font">_About</Link>
+              <Link to='/' className="Sub-item nav-font">_Work</Link>
               
             </div>
         </div>

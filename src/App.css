@@ -45,6 +45,8 @@ a {
 
 a:hover {
   color: #feda6a !important;
+  -webkit-filter: drop-shadow(0px 0px 4px rgba(254, 218, 106, 0.65));
+  filter: drop-shadow(0px 0px 4px rgba(254, 218, 106, 0.65));
   -webkit-transition-delay: 0s;
   -moz-transition-delay: 0s;
   -ms-transition-delay: 0s;
@@ -63,6 +65,7 @@ hr {
   margin-right:8%;
 }
 
+/* Navigation menu */
 .Navigation {
   overflow: hidden;
   display: block;
@@ -88,11 +91,19 @@ hr {
   padding-top: 22px;
 }
 
+.nav-font {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  letter-spacing: 0.05em;
+}
+
+/* underline */
 .underline {
   text-decoration: underline #feda6a;
   text-underline-offset: 5px;
 }
 
+/* images */
 .img-shadow {
   -webkit-filter: drop-shadow(40px 5px 40px rgba(0, 0, 0, 0.87));
   filter: drop-shadow(40px 5px 40px rgba(0, 0, 0, 0.87));
@@ -112,6 +123,31 @@ hr {
   padding-bottom: 28px;
 }
 
+img {
+  -webkit-transition: 1s all;   
+  -webkit-transition-delay: 0.3s; 
+  -moz-transition: 1s all;   
+  -moz-transition-delay: 0.3s; 
+  -ms-transition: 1s all;   
+  -ms-transition-delay: 0.3s; 
+  -o-transition: 1s all;   
+  -o-transition-delay: 0.3s; 
+  transition: 1s all;   
+  transition-delay: 0.3s;
+}
+
+img:hover {
+  -webkit-filter: drop-shadow(0px 0px 8px rgba(254, 218, 106, 0.4));
+  filter: drop-shadow(0px 0px 8px rgba(254, 218, 106, 0.4));
+  -webkit-transition-delay: 0s;
+  -moz-transition-delay: 0s;
+  -ms-transition-delay: 0s;
+  -o-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+
+/* Font  and text */
 .gold {
   color: #feda6a;
 }
@@ -148,6 +184,7 @@ hr {
   line-height: 1.5;
 }
 
+/* Footer */
 .Footer {
   text-align: center;
   padding-top: 30px;
