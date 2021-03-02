@@ -53,7 +53,7 @@ export default function EatBeats(props) {
             <a href="https://github.com/DaniloBracho1992" class="font-white" target="_blank" rel="noreferrer">Danilo Bracho</a>
         </Grid>
         <Grid item xs={12} sm={7}>
-          <img src={image} alt="About me Clement Valles" class="img-portfolio img-shadow"/>
+          <img src={image} alt="eats and beats app" class="img-project img-shadow"/>
         </Grid>
 
         <Grid item xs={12} >

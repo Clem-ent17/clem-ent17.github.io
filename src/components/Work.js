@@ -2,7 +2,7 @@
 import React from "react"
 // Import the Thumbnail component
 // import Thumbnail from './Thumbnail'; 
-import EatBeats from './EatBeats';
+import PartyHub from './PartyHub';
 // Import the style sheet
 import '../App.css';
  
@@ -10,7 +10,7 @@ export default function Work(props) {
   return (
     // Render a Thumbnail component
     <div>
-     <EatBeats />
+     <PartyHub />
       {/* <Thumbnail
         link="/twitter"
         image="https://miro.medium.com/max/1200/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg"

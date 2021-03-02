@@ -46,7 +46,7 @@ export default function WeatherApp(props) {
           <a href="https://clem-ent17.github.io/Weather-Dashboard/" target="_blank" rel="noreferrer">https://clem-ent17.github.io/Weather-Dashboard/</a>
         </Grid>
         <Grid item xs={12} sm={7}>
-          <img src={image} alt="About me Clement Valles" class="img-portfolio img-shadow"/>
+          <img src={image} alt="weather app image" class="img-project img-shadow"/>
         </Grid>
 
         <Grid item xs={12} >
