@@ -3,7 +3,16 @@ import { BrowserRouter, Route, Link } from 'react-router-dom';
 // Import components
 import Work from './components/Work'; 
 import About from './components/About';
-import Footer from "./components/Footer"
+import Footer from "./components/Footer";
+
+//project pages
+import PartyHub from './components/PartyHub'; 
+import EatBeats from './components/EatBeats'; 
+import WeatherApp from './components/WeatherApp'; 
+import DayPlanner from './components/DayPlanner'; 
+import BudgetTracker from './components/BudgetTracker'; 
+import BurgerApp from './components/BurgerApp'; 
+
 // Import the style sheet  
 import './App.css';
 
@@ -25,8 +34,15 @@ function App() {
 
         <div>
           {/* Set up the Router */}
-          <Route path="/about" component={About} />
           <Route exact path="/" component={Work} />
+          <Route path="/about" component={About} />
+          <Route exact path="/partyhub" component={PartyHub} />
+          <Route exact path="/eatbeats" component={EatBeats} />
+          <Route exact path="/weatherapp" component={WeatherApp} />
+          <Route exact path="/dayplanner" component={DayPlanner} />
+          <Route exact path="/budgettracker" component={BudgetTracker} />
+          <Route exact path="/burgerapp" component={BurgerApp} />
+          
         </div>
       </div>
 

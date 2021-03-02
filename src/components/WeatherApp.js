@@ -10,12 +10,7 @@ import Grid from '@material-ui/core/Grid';
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
-  },
-  paper: {
-    padding: theme.spacing(2),
-    textAlign: 'center',
-    color: theme.palette.text.secondary,
-  },
+  }
 }));
  
 export default function WeatherApp(props) {
@@ -46,7 +41,7 @@ export default function WeatherApp(props) {
           <a href="https://clem-ent17.github.io/Weather-Dashboard/" target="_blank" rel="noreferrer">https://clem-ent17.github.io/Weather-Dashboard/</a>
         </Grid>
         <Grid item xs={12} sm={7}>
-          <img src={image} alt="weather app image" class="img-project img-shadow"/>
+          <img src={image} alt="weather app" class="img-project img-shadow"/>
         </Grid>
 
         <Grid item xs={12} >
