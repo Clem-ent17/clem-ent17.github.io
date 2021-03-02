@@ -27,7 +27,7 @@ export default function Work(props) {
           </Grid>
 
           <Grid item xs={12} >
-            <h1>Discover my work:</h1>
+            <h1>Hi, I am <span className="gold">Clem</span><br/>and this is my work</h1>
           </Grid>
 
           <Grid item xs={12} sm={4}>

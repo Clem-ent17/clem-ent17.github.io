@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+# Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+My professional portfolio
 
-## Available Scripts
 
-In the project directory, you can run:
+## Links:
 
-### `yarn start`
+GitHub repository: 
+https://github.com/Clem-ent17/react-portfolioo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Live link to access the application:
+https://clem-ent17.github.io/Portfolio/
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+My professional LinkedIn:
+[LinkedIn](https://www.linkedin.com/in/clement-valles/)
 
-### `yarn test`
+My GitHub:
+[GitHub](https://github.com/Clem-ent17)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+## Description:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This project is a professional portfolio made with React. I added some custom CSS. 
+It features few components:
+* App.js
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* Work.js
+    - Thumbnail.js
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* About.js
 
-### `yarn eject`
+* Footer.js
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+* Projects page:
+    - BudgetTracker.js
+    - BurgerApp.js
+    - DayPlanner.js
+    - EatBeats.js
+    - PartyHub.js
+    - WeatherApp.js
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Technologies:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+* Technology used in this application: 
+    - HTML
+    - CSS
+    - Material UI
+    - React Route DOM
+    - GitHub
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Special Acknowledgements:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The Stock images on the portfolio pages are from the website:
+[Unsplash](https://unsplash.com/)
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Project status:
 
-### Analyzing the Bundle Size
+Work is completed.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## Notes:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+* I do not wish to share my phone number on the portfolio.
 
-### Advanced Configuration
+* I do not want to have the email too visible, people who will be on my portfolio will be directed here through my application to a job offer.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+* I wish to expende my projects to my previous design and UI projets. I expect to have more detailed and unique project pages. This is why I am not going with a component for this feature.
 
-### Deployment
+Thanks for reading! ;)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- - -
 
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Clement Valles

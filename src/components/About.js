@@ -30,7 +30,7 @@ function About(props) {
         </Grid>
         
         <Grid item xs={12} sm={6}>
-          <h1>Hi, I am<br/><span className="gold">Clem</span>ent Valles</h1>
+          <h1><span className="gold">Clem</span>ent<br/>Valles</h1>
 
           <p className="IntroText">I’m passionate about two things: solving problems, even sometimes before they exist, and making a difference with my visual and UI design.</p>
 
