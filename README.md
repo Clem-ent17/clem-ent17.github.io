@@ -9,7 +9,7 @@ GitHub repository:
 https://github.com/Clem-ent17/react-portfolioo
 
 Live link to access the application:
-https://clem-ent17.github.io/Portfolio/
+https://clem-ent17.github.io/react-portfolio/
 
 My professional LinkedIn:
 [LinkedIn](https://www.linkedin.com/in/clement-valles/)
