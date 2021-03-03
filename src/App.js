@@ -36,12 +36,12 @@ function App() {
           {/* Set up the Router */}
           <Route exact path="/" component={Work} />
           <Route path="/about" component={About} />
-          <Route exact path="/partyhub" component={PartyHub} />
-          <Route exact path="/eatbeats" component={EatBeats} />
-          <Route exact path="/weatherapp" component={WeatherApp} />
-          <Route exact path="/dayplanner" component={DayPlanner} />
-          <Route exact path="/budgettracker" component={BudgetTracker} />
-          <Route exact path="/burgerapp" component={BurgerApp} />
+          <Route path="/partyhub" component={PartyHub} />
+          <Route path="/eatbeats" component={EatBeats} />
+          <Route path="/weatherapp" component={WeatherApp} />
+          <Route path="/dayplanner" component={DayPlanner} />
+          <Route path="/budgettracker" component={BudgetTracker} />
+          <Route path="/burgerapp" component={BurgerApp} />
           
         </div>
       </div>
