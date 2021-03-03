@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom'; 
+import { BrowserRouter, Route, Link } from 'react-router-dom'; 
 // Import components
 import Work from './components/Work'; 
 import About from './components/About';
@@ -18,23 +18,22 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter>
       <div className="Container">
 
         <div className="Navigation">
             
             <div className="Navigation-sub">
-              <Link to='/' className="Nav-left"><h2><span className="silver">C</span><span className="">|</span><span className="silver">V</span></h2></Link>
+              <Link to='/work' className="Nav-left"><h2><span className="silver">C</span><span className="">|</span><span className="silver">V</span></h2></Link>
               {/* Set up the links */}
               <Link to='/about' className="Sub-item nav-font">_About</Link>
-              <Link to='/' className="Sub-item nav-font">_Work</Link>
+              <Link to='/work' className="Sub-item nav-font">_Work</Link>
             </div>
         </div>
 
         <div>
           {/* Set up the Router */}
-          <Route exact path="/" component={Work} />
-          <Route exact path="/react-portfolio" component={Work} />
+          <Route exact path="/work" component={Work} />
           <Route path="/about" component={About} />
           <Route path="/partyhub" component={PartyHub} />
           <Route path="/eatbeats" component={EatBeats} />
@@ -46,7 +45,7 @@ function App() {
       </div>
 
       <Footer />
-    </Router>
+    </BrowserRouter>
   );
 }
 
