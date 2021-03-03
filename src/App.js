@@ -34,6 +34,7 @@ function App() {
         <div>
           {/* Set up the Router */}
           <Route exact path="/" component={Work} />
+          <Route exact path="/react-portfolio" component={Work} />
           <Route path="/about" component={About} />
           <Route path="/partyhub" component={PartyHub} />
           <Route path="/eatbeats" component={EatBeats} />
@@ -41,7 +42,6 @@ function App() {
           <Route path="/dayplanner" component={DayPlanner} />
           <Route path="/budgettracker" component={BudgetTracker} />
           <Route path="/burgerapp" component={BurgerApp} />
-          
         </div>
       </div>
 
