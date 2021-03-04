@@ -33,7 +33,7 @@ function App() {
 
         <div>
           {/* Set up the Router */}
-          <Route exact path="/" component={Work} />
+          <Route path="/" component={Work} />
           <Route path="/about" component={About} />
           <Route path="/partyhub" component={PartyHub} />
           <Route path="/eatbeats" component={EatBeats} />
