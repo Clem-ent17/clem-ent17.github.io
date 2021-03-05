@@ -24,16 +24,16 @@ function App() {
         <div className="Navigation">
             
             <div className="Navigation-sub">
-              <Link to='/' className="Nav-left"><h2><span className="silver">C</span><span className="">|</span><span className="silver">V</span></h2></Link>
+              <Link to='/home' className="Nav-left"><h2><span className="silver">C</span><span className="">|</span><span className="silver">V</span></h2></Link>
               {/* Set up the links */}
               <Link to='/about' className="Sub-item nav-font">_About</Link>
-              <Link to='/' className="Sub-item nav-font">_Work</Link>
+              <Link to='/home' className="Sub-item nav-font">_Work</Link>
             </div>
         </div>
 
         <div>
           {/* Set up the Router */}
-          <Route path="/" component={Work} />
+          <Route path="/home" component={Work} />
           <Route path="/react-portfolio" component={Work} />
           <Route path="/about" component={About} />
           <Route path="/partyhub" component={PartyHub} />
